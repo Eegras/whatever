@@ -36,12 +36,12 @@ blueprint:
     notification_title:
       name: Notification title (Optional)
       description: 'Default: "Doorbell rung!"'
-      default: "Motion detected!"
+      default: "Doorbell rung!"
 
     notification_message:
       name: Notification message (Optional)
-      description: 'Default: "{{ doorbell_name }} detected movement!"'
-      default: "{{ doorbell_name }} detected movement!"
+      description: 'Default: "{{ doorbell_name }} was rung!"'
+      default: "{{ doorbell_name }} was rung!"
       
     delay:
       name: Delay (Optional)
